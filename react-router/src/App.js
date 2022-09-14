@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/Home'
 import About from './components/About'
 import Packages from './components/Packages'
+import Contact from './components/Contact';
 
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
             <li>
             <Link to="/packages">Our Packages</Link>
             </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
 
@@ -42,6 +46,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/packages" element={<Packages packages={ packages } />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
       </Router>

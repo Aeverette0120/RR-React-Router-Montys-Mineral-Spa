@@ -92,3 +92,18 @@ li:hover {
   font-size: 25px;
   margin: 20px;
 }
+
+
+.contactpage {
+  border-bottom: 6px black solid;
+  padding-top: 50px;
+}
+
+.contactpage p {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-size: 2.0vw;
+  font-weight: bold;
+  color: black;
+}
